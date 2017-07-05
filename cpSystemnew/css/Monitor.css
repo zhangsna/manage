@@ -1,0 +1,118 @@
+/*特殊符号字体*/
+@font-face { font-family: PUHCA; src: url('/Styles/PUHCA.ttf'); }
+.my-font { font-family: PUHCA,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif !important; }
+/*重写全局字体*/
+/*.content-wrapper { font-family: PUHCA,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif !important; }*/
+/*修改首页列表样式*/
+ul.todo-list li { cursor: pointer; }
+    ul.todo-list li:hover { background-color: #e6e7e8; }
+    ul.todo-list>li .text { display: inline; }
+/*首页tab切换显示隐藏*/
+.content-main .hide{
+    display:none;
+}
+.content .content-main .show {
+    display: block;
+}
+.activeBg{
+    background:blue;
+    color:#fff;
+}
+.style2 {
+    width: 70px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/*柱状图左右按钮*/
+.btns {
+    width: 30px;
+    height: 30px;
+}
+.btns span{
+    display:block;
+    font-size:50px;
+    color:rosybrown;
+    cursor:pointer;
+}
+.third{
+    position:relative;
+}
+.prev{
+    position:absolute;
+    top:45%;
+    left:0;
+    padding-right:10px;
+}
+.next {
+    position: absolute;
+    top: 45%;
+    right: 25px;
+}
+.prevs {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    padding-right: 10px;
+}
+
+.nexts {
+    position: absolute;
+    top: 45%;
+    right: 25px;
+}
+/*工程预控-提醒*/
+.btnss{
+    width:80px;
+    height:30px;
+}
+
+/*修改bootstrap样式*/
+.text-danger {
+    color: #dd4b39 !important;
+}
+.text-warning { color: #f39c12 !important; }
+.text-success { color: #00a65a !important; }
+.text-info { color: #00c0ef !important; }
+.box-primary .box-header .label { position: absolute; margin: -5px 0 0 2px; text-align: center; font-size: 9px; padding: 2px 3px; line-height: .9; }
+.box-toobar { padding: 10px; margin: 0; text-align: center; }
+    .box-toobar .left { float: left; margin-right: 10px; }
+    .box-toobar .right { float: right; }
+    .box-toobar .center { display: inline-block; }
+    .box-toobar .clear { clear: both; }
+
+.my-box-small { width: 360px; margin: 7% auto; min-height: 100px; background-color: white; padding: 20px; }
+
+@media (max-width: 768px) {
+    .my-box-small { width: 90%; margin-top: 20px; }
+    .my-box-middle { width: 90%; margin-top: 20px; }
+
+    .main-header .logo { display: none; }
+    .my-project-a { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+}
+
+.my-box-middle { width: 600px; margin: 5px auto; min-height: 100px; background-color: white; padding: 20px; }
+
+.dropdown-menu .menu li.active { font-weight: bold; background-color: #f4f4f4; }
+
+.my-loading { z-index: 50; background: rgba(255, 255, 255, 0.7); position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .my-loading .fa { position: absolute; top: 50%; left: 50%; margin-left: -15px; margin-top: -15px; color: black; font-size: 30px; }
+.my-image-photo { width: 120px; }
+.my-image-thumbnail { width: 100px; cursor: zoom-in; display: inline; }
+.my-image-original { cursor: zoom-out; display: none; width: 480px; }
+.my-image-sign { width: 100px; }
+.my-confirm .modal-footer { padding: 5px; text-align: center; }
+.my-confirm .modal-body { text-align: center; }
+.my-confirm .modal-dialog { width: 400px; }
+.my-pictureview img { width: 100%; display: block; }
+.my-pictureview .modal-body { padding: 0; }
+.my-pictureview .btn-danger { position: absolute; z-index: 999; left: 590px; top: -10px; }
+.my-pagemodal .modal-body { padding: 0; }
+.my-text-cut { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+/*特殊符号插件样式 start*/
+.my-symbol-ul { list-style: none; font-family: PUHCA; width: 200px; margin: 0; padding: 0; }
+    .my-symbol-ul li { display: block; float: left; padding: 5px; width: 50px; height: 50px; text-align: center; font-size: 18pt; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+        .my-symbol-ul li:hover { background-color: silver; }
+/*特殊符号插件样式 end*/
+/* dropzone 样式 */
+.dropzone { border:2px dashed #ddd;}
